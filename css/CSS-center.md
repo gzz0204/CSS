@@ -191,6 +191,7 @@ div#one {
 
 ```
 #####三种水平垂直居中结果如下：
+![容器水平垂直居中](https://github.com/gzz0204/css/blob/master/css/img/centerBox.png)
 
 ####6. 容器水平垂直居中 ，文字水平垂直居中（综合上述内容）
 ```
