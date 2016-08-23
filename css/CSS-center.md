@@ -226,6 +226,6 @@ div#one {
 #####结果如下：
 
 
-![文字容器水平垂直居中]()
+![文字容器水平垂直居中](https://github.com/gzz0204/css/blob/master/css/img/centerBoxAndWord.png)
 
  
