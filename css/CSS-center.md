@@ -190,7 +190,36 @@ div#one {
 
 
 ```
-#####三种水平垂直居中结果如下：
+#####（4）未知要居中容器宽高（采用table-cell）
+
+```
+
+/*Html结构： */
+
+<div class="wrapper">
+    <div class="content"></div>
+</div>
+
+/*CSS结构：*/
+.wrapper {    
+    /*为了方便查看，与居中效果无关*/
+    width:300px;
+    height:100px;
+    border:1px solid red;
+    /*设置垂直居中*/
+     display:table-cell;
+     vertical-align:middle;
+}
+/*为了方便查看，与居中效果无关*/
+.content {
+    border:1px solid red;
+    width: 50px;  
+    height: 70px;
+ /*设置水平居中*/
+    margin:0 auto;
+}
+```
+#####四种水平垂直居中结果如下：
 ![容器水平垂直居中](https://github.com/gzz0204/css/blob/master/css/img/centerBox.png)
 
 ####6. 容器水平垂直居中 ，文字水平垂直居中（综合上述内容）
